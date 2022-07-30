@@ -30,7 +30,7 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
       - name: Create a Release
-        uses: elgohr/Github-Release-Action@master
+        uses: elgohr/Github-Release-Action@main
       - name: Publish package
         run:
           mvn clean package -DattachMuleSources -Pgithub deploy
