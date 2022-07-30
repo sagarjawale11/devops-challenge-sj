@@ -27,7 +27,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: actions/setup-java@v1
       - name: Create a Release
-        uses: elgohr/Github-Release-Action@1.0.0
+        uses: elgohr/Github-Release-Action@master
         with:
           java-version: '11'
           distribution: 'adopt'
